@@ -1,66 +1,215 @@
-body{
-    background-color: deepskyblue;
-border-style: solid;}
-
-.container{
-    width: 60%;
-    margin:auto;
-    text-align: center;
-}
-
-.dice{
-    text-align: centre;
-    display: inline-block;
+@media(min-width:320px){
+    body{
+        background-color: deepskyblue;
     /* border-style: solid; */
-    width: 150px;
-}
-
-h1{
-    margin: 30px;
-    font-family: cursive ;
-    font-size: 4rem;
-    color: white;
-}
-p{
-    font-size: 2rem;
-    color: white;
-    font-family: cursive;
-}
-img{
-    width: 60%;
-}
-footer{
-    font-family: cursive;
-    color: white;
-    margin-left: 42%;
-    /* text-align: center; */
-    font-size: 2rem;
-    /* margin-top: 20px; */
-}
-.butt{
-    font-family: cursive;
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    /* width: 10%; */
-   border-radius: 7px;
-   background-color: deepskyblue;
-  border-color: deepskyblue;
-  cursor: pointer;
-}
-.play{
-    /* text-align: center;  */
-    width: 30%;
-    margin-left: 45%;
-}
-.refresh{
-    font-size: 2rem;
-    font-family: cursive;
-    color: white;
+    }
+    
+    .container{
+        width: 100%;
+        margin:auto;
+        text-align: center;
+    }
+    
+    .dice{
+        text-align: centre;
+        display: inline-block;
+        /* border-style: solid; */
+        width: 150px;
+    }
+    
+    h1{
+        margin: 30px;
+        font-family: cursive ;
+        font-size: 4rem;
+        color: white;
+    }
+    p{
+        font-size: 2rem;
+        color: white;
+        font-family: cursive;
+    }
+    img{
+        width: 60%;
+    }
+    footer{
+        font-family: cursive;
+        color: white;
+        margin-left: 10%;
+        /* text-align: center; */
+        font-size: 2rem;
+        padding-top: 2%;
+        /* margin-top: 20px;
+        /* margin-top: 20px; */
+    }
+    .butt{
+        font-family: cursive;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        /* width: 10%; */
+       border-radius: 2px;
+       background-color: deepskyblue;
+      border-color: deepskyblue;
+      cursor: pointer;
+    
+    }
+    .play{
+          /* text-align: center; */
+      /* width: 76%; */
+     margin-left: 30%;
+    }
+    .refresh{
+        font-size: 2rem;
+        font-family: cursive;
+        color: white;
+        
+    }
+    
+    
+    
+    
+    
     
 }
-
-
-
-
-
+@media(min-width:768px){
+    body{
+        background-color: deepskyblue;
+    /* border-style: solid; */
+    }
+    
+    .container{
+        width: 100%;
+        margin:auto;
+        text-align: center;
+    }
+    
+    .dice{
+        text-align: centre;
+        display: inline-block;
+        /* border-style: solid; */
+        width: 150px;
+    }
+    
+    h1{
+        margin: 30px;
+        font-family: cursive ;
+        font-size: 4rem;
+        color: white;
+    }
+    p{
+        font-size: 2rem;
+        color: white;
+        font-family: cursive;
+    }
+    img{
+        width: 60%;
+    }
+    footer{
+        font-family: cursive;
+        color: white;
+        margin-left: 28%;
+        /* text-align: center; */
+        font-size: 2rem;
+        padding-top: 2%;
+    }
+    .butt{
+        font-family: cursive;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        /* width: 10%; */
+       border-radius: 2px;
+       background-color: deepskyblue;
+      border-color: deepskyblue;
+      cursor: pointer;
+    
+    }
+    .play{
+          /* text-align: center; */
+      /* width: 76%; */
+     margin-left: 40%;
+    }
+    .refresh{
+        font-size: 2rem;
+        font-family: cursive;
+        color: white;
+        
+    }
+    
+    
+    
+    
+    
+    
+}
+@media(min-width:1366px){
+    body{
+        background-color: deepskyblue;
+    /* border-style: solid; */
+    }
+    
+    .container{
+        width: 100%;
+        margin:auto;
+        text-align: center;
+    }
+    
+    .dice{
+        text-align: centre;
+        display: inline-block;
+        /* border-style: solid; */
+        width: 150px;
+    }
+    
+    h1{
+        margin: 30px;
+        font-family: cursive ;
+        font-size: 4rem;
+        color: white;
+    }
+    p{
+        font-size: 2rem;
+        color: white;
+        font-family: cursive;
+    }
+    img{
+        width: 60%;
+    }
+    footer{
+        font-family: cursive;
+        color: white;
+        margin-left: 37%;
+        /* text-align: center; */
+        font-size: 2rem;
+        padding-top: 2%;
+    }
+    .butt{
+        font-family: cursive;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        /* width: 10%; */
+       border-radius: 2px;
+       background-color: deepskyblue;
+      border-color: deepskyblue;
+      cursor: pointer;
+    
+    }
+    .play{
+          /* text-align: center; */
+      /* width: 76%; */
+     margin-left: 45%;
+    }
+    .refresh{
+        font-size: 2rem;
+        font-family: cursive;
+        color: white;
+        
+    }
+    
+    
+    
+    
+    
+    
+}
